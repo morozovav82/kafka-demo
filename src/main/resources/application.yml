@@ -1,0 +1,7 @@
+logging.level.ru.reinform: info
+
+spring:
+  kafka:
+    bootstrap-servers: 192.168.100.121:32530
+    consumer:
+      auto-offset-reset: earliest
